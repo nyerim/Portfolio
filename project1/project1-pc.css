@@ -34,8 +34,8 @@ header .header-wrapper {
   background-color: #fff;
   border-bottom: 1px solid #000;
   position: fixed;
-  margin-top: -150px;
-  padding: 15px 80px 15px 80px;
+  margin-top: -190px;
+  padding: 15px 100px 15px 100px;
   width: 100%;
   z-index: 3;
 }
@@ -95,21 +95,20 @@ main .main-1-header {
 
 main .main-1-header h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 800;
   margin-left: 10%;
+  margin-top: 10%;
 }
 
 main .main-1-header h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
-  margin-left: 10%;
+  margin-left: 10.5%;
 }
 
 /* main-1-main */
 
-main .main-1-main {
-}
 main .main-1-main .main-1-main-img {
   display: flex;
   justify-content: center;
@@ -544,7 +543,7 @@ main .main-4-caution {
 }
 
 /* main-4-member */
-/* main .main-4 .main-4-member {
+main .main-4 .main-4-member {
   position: relative;
   display: block;
 }
@@ -577,10 +576,10 @@ main .main-4 .main-4-member-txt h3 {
 main .main-4 .main-4-member-txt p {
   color: #ea7c7c;
   font-size: 14px;
-} */
+}
 
 /* main-4-guide */
-/* main .main-4 .main-4-guide {
+main .main-4 .main-4-guide {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -608,9 +607,7 @@ main .main-4 .main-4-guide p {
   margin-bottom: 5px;
 }
 
-
 /* main-4-faq */
-/*
 main .main-4 .main-4-guide .guide-img-faq {
   position: relative;
 }
@@ -622,7 +619,6 @@ main .main-4 .main-4-guide .guide-img-faq h3 {
 }
 
 /* main-4-park */
-/*
 main .main-4 .main-4-guide .guide-img-park {
   position: relative;
 }
@@ -637,7 +633,7 @@ main .main-4 .guide-img-park h3 {
 }
 
 /* main-4-loc */
-/*
+
 main .main-4 .main-4-guide .guide-img-loc {
   display: block;
   position: relative;
@@ -649,7 +645,6 @@ main .main-4 .main-4-guide .guide-img-loc h3 {
   left: 43%;
   margin-bottom: 80px;
 }
-*/
 
 /*** footer ***/
 footer {
