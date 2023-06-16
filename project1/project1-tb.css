@@ -305,7 +305,8 @@ main .main-3 .main-3-main .main-3-exp {
   display: flex;
   border-bottom: 1px solid #a8a8a8;
   justify-content: center;
-  margin-top: 2%;
+  width: 100%;
+  margin: auto;
   padding-bottom: 2%;
 }
 main .main-3 .main-3-main .main-3-exp:last-child {
@@ -314,7 +315,7 @@ main .main-3 .main-3-main .main-3-exp:last-child {
 }
 main .main-3 .main-3-main .main-3-exp img {
   width: 50px;
-  margin-right: 30%;
+  margin-right: 20%;
   margin-left: 5%;
 }
 main .main-3 .main-3-main .main-3-exp:last-child img {
@@ -516,4 +517,3 @@ main .main-4 .guide-img-loc {
 .footer .footer .footer-end {
   display: none;
 }
-
