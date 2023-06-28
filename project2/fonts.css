@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: 'NeueHaasDisplay-Bold';
+  src: url(../common/fonts/NeueHaasDisplay-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplay-Light';
+  src: url(../common/fonts/NeueHaasDisplay-Light.woff2) format('woff2');
+}

@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+body {
+  font-family: "NeueHaasDisplay-Bold";
+  /* font-family: 'NeueHaasDisplay-Light'; */
+  text-align: center;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  background-color: #ededed;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+}
+/* sec1 */
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px 20px 30px;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+
+.sec1 h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+.sec1 .nav {
+  display: flex;
+  font-family: "NeueHaasDisplay-Light";
+}
+.sec1 .nav svg {
+  width: 25px;
+  margin-top: 8px;
+  margin-right: -5px;
+}
+.sec1 .nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 15px;
+  font-size: 21px;
+}
+
+.lines__line.mod--header-1 {
+  position: absolute;
+  right: 14%;
+  bottom: 0px;
+  height: 160px;
+}
+
+.lines__line {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 1px;
+  height: 1px;
+  background-color: #101010;
+}
+
+.sec1 h2 {
+  font-family: "NeueHaasDisplay-Bold";
+  font-size: 30px;
+  line-height: 1.9;
+  margin-left: -10px;
+}
+
+/* sec2 */
+.sec2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.sec2 .sec2-lf {
+  width: 40%;
+}
+
+.sec2 .sec2-lf h1 {
+  font-family: "NeueHaasDisplay-Light";
+  font-size: 90px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.sec2 .sec2-lf img {
+}
+.sec2 .sec2-lf h1:first-child {
+}
+.sec2 .sec2-lf h1:nth-child(3) {
+  margin-top: 10%;
+}
+.sec2 .sec2-lf h1:nth-child(4) {
+  margin-top: 8%;
+}
+
+.sec2 .allcat {
+  margin-top: 5%;
+}
+.sec2 .allcat img {
+  width: 100px;
+  margin-left: 28vw;
+}
+.sec2 .sec2-lf .bold {
+  font-family: "NeueHaasDisplay-Bold";
+  text-align: right;
+}
+
+.sec2 .sec2-rt {
+  display: flex;
+  align-items: center;
+}
+.sec2-rt .box {
+  border: 1px solid #000;
+  width: 50vw;
+  height: 30vw;
+  background-image: url(./images/air.JPG);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.sec2 .sec2-rt > .box1 {
+  width: 200px;
+}
+.sec2 .sec2-rt > .box2 {
+  width: 500px;
+  height: 40vw;
+  margin-left: 20px;
+}
+
+/* sec3 */
+.sec3 {
+  display: flex;
+  padding-left: 10%;
+  flex-direction: column;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+.sec3 .sec3-tp {
+  display: flex;
+}
+.sec3 .sec3-tp .sec3-lf {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.sec3 .sec3-tp .sec3-lf img {
+  width: 80px;
+  padding-top: 25px;
+}
+.sec3 .sec3-tp .sec3-lf .lf-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+.sec3 .sec3-tp .sec3-lf h2 {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+.lines__line .mod--header-2 {
+  left: 20px;
+  top: 20px;
+  right: auto;
+  bottom: auto;
+  height: 200px;
+}
+
+.sec3 .sec3-tp .sec3-rt {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 80px;
+  line-height: 1.8;
+}
+.sec3 .sec3-tp .sec3-rt p:first-child {
+  margin-bottom: 30px;
+}
+
+.sec3 .sec3-bt {
+  display: flex;
+  align-items: end;
+  padding-bottom: 7%;
+}
+.sec3 .sec3-bt .musiccat {
+  width: 250px;
+  height: 200px;
+}
+.sec3 .sec3-bt .sec3-btmd {
+  display: flex;
+  justify-content: center;
+  margin-left: -150px;
+}
+.sec3 .sec3-bt .sec3-btmd img {
+  width: 50%;
+  margin-top: 5%;
+}
+.sec3 .sec3-bt .sec3-btmd .sec-3-box {
+  margin-left: -80px;
+  margin-top: 180px;
+}
+.sec3 .sec3-bt .sec3-btmd .sec-3-box .box3 {
+  background-color: #f9f9f9;
+  width: 300px;
+  height: 400px;
+  padding-top: 30px;
+}
+.sec3 .sec3-bt .sec3-btmd .sec-3-box .box4 {
+  background-color: #fff;
+  width: 230px;
+  margin: auto;
+}
+
+.sec3 .sec3-bt .sec3-btn {
+  font-family: "NeueHaasDisplay-Light";
+  display: flex;
+  line-height: 3;
+}
+.sec3 .sec3-bt .sec3-btn .sec3-btn1 {
+  display: flex;
+  width: 140px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+}
+.sec3 .sec3-bt .sec3-btn .sec3-btn1 svg {
+  width: 20px;
+  margin: 5px 5px 0 18px;
+  filter: brightness(100);
+}
+
+.sec3 .sec3-bt .sec3-btn .sec3-btn2 {
+  display: flex;
+  line-height: 2.6;
+  width: 150px;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.sec3 .sec3-bt .sec3-btn .sec3-btn2 svg {
+  width: 20px;
+  margin: 5px 5px 0 18px;
+}
