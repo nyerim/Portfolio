@@ -3,6 +3,11 @@
 body {
   font-family: "NeueHaasDisplay-Bold";
   /* font-family: 'NeueHaasDisplay-Light'; */
+
+  /* font-family: 'NanumSquareNeo-eHv'; */
+  /* font-family: 'NanumSquareNeo-dEb'; 아래로 갈수록 얇아짐 */
+  /* font-family: 'NanumSquareNeo-cBd'; */
+  /* font-family: 'NanumSquareNeo-bRg'; */
   text-align: center;
   word-break: break-all;
   overflow-wrap: break-word;
@@ -17,38 +22,53 @@ body {
 .sec1 {
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px 20px 30px;
+  padding: 30px 35px 30px 40px;
   border-bottom: 1px solid #000;
   position: relative;
 }
 
 .sec1 h1 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 900;
+  line-height: 3;
 }
 .sec1 .nav {
   display: flex;
+  align-items: center;
   font-family: "NeueHaasDisplay-Light";
 }
-.sec1 .nav svg {
-  width: 25px;
-  margin-top: 8px;
-  margin-right: -5px;
+.sec1 .nav-lf svg {
+  width: 20px;
+  margin-left: -80px;
+  margin-right: 10px;
+  margin-bottom: -13px;
 }
+
 .sec1 .nav a {
   text-decoration: none;
   color: #000;
-  margin: 15px;
   font-size: 21px;
+}
+.sec1 .nav-lf {
+  display: flex;
+  line-height: 2;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.sec1 .nav-rt {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  line-height: 2;
 }
 
 .lines__line.mod--header-1 {
   position: absolute;
   right: 14%;
   bottom: 0px;
-  height: 160px;
+  height: 165px;
 }
-
 .lines__line {
   position: absolute;
   right: 20px;
@@ -61,8 +81,7 @@ body {
 .sec1 h2 {
   font-family: "NeueHaasDisplay-Bold";
   font-size: 30px;
-  line-height: 1.9;
-  margin-left: -10px;
+  line-height: 3.2;
 }
 
 /* sec2 */
@@ -70,11 +89,12 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .sec2 .sec2-lf {
   width: 40%;
+  margin-left: 150px;
 }
 
 .sec2 .sec2-lf h1 {
@@ -83,19 +103,10 @@ body {
   font-weight: 100;
   text-align: left;
 }
-
-.sec2 .sec2-lf img {
-}
 .sec2 .sec2-lf h1:first-child {
+  margin-bottom: -8%;
 }
 .sec2 .sec2-lf h1:nth-child(3) {
-  margin-top: 10%;
-}
-.sec2 .sec2-lf h1:nth-child(4) {
-  margin-top: 8%;
-}
-
-.sec2 .allcat {
   margin-top: 5%;
 }
 .sec2 .allcat img {
@@ -110,22 +121,25 @@ body {
 .sec2 .sec2-rt {
   display: flex;
   align-items: center;
+  margin-right: 150px;
 }
 .sec2-rt .box {
   border: 1px solid #000;
   width: 50vw;
-  height: 30vw;
-  background-image: url(./images/air.JPG);
+  height: 23vw;
+  background-image: url(./images/bubble.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 .sec2 .sec2-rt > .box1 {
   width: 200px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
 }
 .sec2 .sec2-rt > .box2 {
-  width: 500px;
-  height: 40vw;
-  margin-left: 20px;
+  width: 400px;
+  height: 35vw;
+  margin-left: 40px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
 }
 
 /* sec3 */
@@ -139,6 +153,7 @@ body {
 }
 .sec3 .sec3-tp {
   display: flex;
+  margin-top: 3%;
 }
 .sec3 .sec3-tp .sec3-lf {
   display: flex;
@@ -175,14 +190,20 @@ body {
   margin-left: 80px;
   line-height: 1.8;
 }
+.sec3 .sec3-tp .sec3-rt p {
+  font-family: "NanumSquareNeo-cBd";
+}
 .sec3 .sec3-tp .sec3-rt p:first-child {
   margin-bottom: 30px;
 }
 
 .sec3 .sec3-bt {
+  padding-bottom: 7%;
+}
+.sec3 .sec3-bt-flex {
   display: flex;
   align-items: end;
-  padding-bottom: 7%;
+  justify-content: center;
 }
 .sec3 .sec3-bt .musiccat {
   width: 250px;
@@ -191,6 +212,7 @@ body {
 .sec3 .sec3-bt .sec3-btmd {
   display: flex;
   justify-content: center;
+  align-items: start;
   margin-left: -150px;
 }
 .sec3 .sec3-bt .sec3-btmd img {
@@ -206,6 +228,7 @@ body {
   width: 300px;
   height: 400px;
   padding-top: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .sec3 .sec3-bt .sec3-btmd .sec-3-box .box4 {
   background-color: #fff;
@@ -216,12 +239,14 @@ body {
 .sec3 .sec3-bt .sec3-btn {
   font-family: "NeueHaasDisplay-Light";
   display: flex;
-  line-height: 3;
+  justify-content: center;
+  margin-left: -100px;
 }
 .sec3 .sec3-bt .sec3-btn .sec3-btn1 {
   display: flex;
   width: 140px;
   height: 50px;
+  line-height: 3;
   background-color: #000;
   color: #fff;
   border-radius: 30px;
@@ -233,13 +258,353 @@ body {
 }
 
 .sec3 .sec3-bt .sec3-btn .sec3-btn2 {
+  height: 50px;
+  font-size: 18px;
   display: flex;
-  line-height: 2.6;
+  line-height: 2.7;
   width: 150px;
   border: 1px solid #000;
   border-radius: 30px;
+  margin-left: 20px;
 }
 .sec3 .sec3-bt .sec3-btn .sec3-btn2 svg {
   width: 20px;
-  margin: 5px 5px 0 18px;
+  margin: 5px 5px 0 25px;
+}
+
+.sec3 .sec3-bt .sec3-btn .sec3-btn1:hover {
+  background-color: #ededed;
+  border: 1px solid #000;
+  color: #000;
+  transition: 0.4s;
+}
+.sec3 .sec3-bt .sec3-btn .sec3-btn1:hover svg {
+  filter: brightness(0);
+}
+.sec3 .sec3-bt .sec3-btn .sec3-btn2:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.4s;
+}
+.sec3 .sec3-bt .sec3-btn .sec3-btn2:hover svg {
+  filter: brightness(100);
+}
+
+/* sec4 */
+.sec4 {
+  padding-bottom: 7%;
+  border-bottom: 1px solid #000;
+}
+.sec4 .sec4-tp {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec4 .sec4-tp h1 {
+  font-size: 70px;
+  margin-bottom: 4%;
+}
+
+.sec4 .sec4-tp svg {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.sec4 .sec4-bt {
+  font-family: "NanumSquareNeo-bRg";
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.sec4 .sec4-bt .arrow-l {
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.sec4 .sec4-bt .box {
+  width: 380px;
+  height: 370px;
+}
+.sec4 .sec4-bt .box5 {
+  background: #fff;
+  filter: brightness(40%);
+}
+.sec4 .sec4-bt .box5 img {
+  transform: translate(0%, 35%);
+}
+
+.sec4 .sec4-bt .box6 {
+  height: 385px;
+  height: 442px;
+}
+.sec4 .sec4-bt .box6 img {
+  object-fit: cover;
+  filter: brightness(40%);
+  width: 380px;
+  height: 440px;
+}
+
+.sec4 .sec4-bt h2 {
+  font-family: "NanumSquareNeo-dEb";
+  font-size: 30px;
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+.sec4 .sec4-bt .p1 h2 {
+  width: 120px;
+}
+.sec4 .sec4-bt .p3 h2 {
+  width: 290px;
+}
+
+.sec4 .sec4-bt p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.sec4 .sec4-bt h3 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.sec4 .sec4-bt .arrow-r {
+  margin-top: 8%;
+  margin-right: 5%;
+}
+
+/* 예림아 변수설정 하기 */
+
+/* sec5 */
+.sec5 {
+  margin-bottom: 6%;
+}
+.sec5 h1 {
+  margin-top: 2%;
+  font-size: 70px;
+  padding-bottom: 2%;
+  border-bottom: 1px solid #000;
+}
+.sec5 ul,
+.ul-rt {
+  font-family: "NeueHaasDisplay-Light";
+}
+.sec5 .sec5-flex {
+  display: flex;
+  flex-direction: column;
+}
+.sec5 h3 {
+  font-size: 30px;
+}
+.sec5 .sec5-5 h3 {
+  font-family: "NanumSquareNeo-eHv";
+  margin-right: 80px;
+}
+
+.sec5-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.sec5-1 ul {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  list-style: circle;
+}
+
+.sec5-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+/* .sec5-2 h3{
+  margin-right: -26%;
+} */
+.sec5-2 .ul {
+  display: flex;
+  list-style: circle;
+  margin-left: 26%;
+}
+.sec5-2 .ul .ul-lf {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.sec5-2 .ul .ul-rt {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.sec5-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.sec5-3 h3 {
+  margin-left: 50px;
+}
+.sec5-3 ul {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  list-style: circle;
+  margin-left: 9%;
+}
+
+.sec5-4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.sec5-4 h3 {
+  margin-left: 40px;
+}
+.sec5-4 ul {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  list-style: circle;
+  margin-left: 8.5%;
+}
+
+.sec5-5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.sec5-5 h3 {
+  font-family: "NanumSquareNeo-eHv";
+}
+.sec5-5 ul {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  list-style: circle;
+  margin-left: -12%;
+}
+
+/* sec6 */
+.sec6 {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+  width: 80%;
+  height: 250px;
+  border: 1px solid #000;
+  margin-bottom: 4%;
+}
+.sec6 .sec6-lf {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 31px 55px 31px 40px;
+  border-right: 1px solid #000;
+}
+.sec6 .sec6-lf img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.sec6 .sec6-lf .boardcat {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.sec6 .sec6-lf h2 {
+  width: 140px;
+  font-size: 30px;
+}
+
+.sec6 .sec6-rt {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  font-size: 21px;
+}
+.sec6 .sec6-rt .sec6-rt-1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "NeueHaasDisplay-Light";
+  line-height: 1.8;
+}
+.sec6 .sec6-rt .sec6-rt-1 a:hover {
+  transform: translateX(10px);
+  transition: 0.6s;
+}
+.sec6 .sec6-rt .sec6-rt-1 a:last-child svg {
+  width: 20px;
+  height: 20px;
+  margin-left: -20px;
+}
+
+.sec6 .sec6-rt .sec6-rt-2 {
+  font-family: "NeueHaasDisplay-Light";
+  padding: 20px;
+  border: 1px solid #000;
+}
+.sec6 .sec6-rt .sec6-rt-2:hover {
+  display: block;
+  background-color: #000;
+  transform: translateY(-10px);
+  transition: 0.6s;
+  color: #fff;
+}
+
+.sec6 .sec6-rt .sec6-rt-3 {
+  display: flex;
+}
+.sec6 .sec6-rt .sec6-rt-3 .box {
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.sec6 .sec6-rt .sec6-rt-3 .box:hover {
+  border-radius: 50px;
+  transition: 0.6s;
+}
+
+.sec6 .sec6-rt .sec6-rt-3 .box8 {
+  background: #fff url(./images/insta.png) no-repeat 50% / cover;
+}
+.sec6 .sec6-rt .sec6-rt-3 .box9 {
+  background: #fff url(./images/github.png) no-repeat 50% / contain;
+  background-size: 50px;
+}
+
+/* box10 */
+.box10 {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  margin-top: 3%;
 }

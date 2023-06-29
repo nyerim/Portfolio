@@ -10,3 +10,24 @@
   font-family: 'NeueHaasDisplay-Light';
   src: url(../common/fonts/NeueHaasDisplay-Light.woff2) format('woff2');
 }
+
+
+@font-face {
+  font-family: 'NanumSquareNeo-eHv';
+  src: url(../common/fonts/NanumSquareNeo-eHv.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeo-dEb';
+  src: url(../common/fonts/NanumSquareNeo-dEb.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeo-cBd';
+  src: url(./NanumSquareNeo-cBd.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeo-bRg';
+  src: url(../common/fonts/NanumSquareNeo-bRg.woff2) format('woff2');
+}
