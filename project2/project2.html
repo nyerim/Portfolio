@@ -21,27 +21,34 @@
 </head>
 
 <body>
-    <section class="sec1">
+    <section class="sec1" id="top">
         <h1>PORTFOLIO</h1>
         <div class="nav">
             <div class="nav-lf">
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
                         fill="none">
                         <path
                             d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
                             fill="#101010" />
                     </svg>MAIN</a>
-                <a href="#">ABOUT ME</a>
+                <a href="#about">ABOUT ME</a>
             </div>
 
             <div class="nav-rt">
-                <a href="#">PROJECT</a>
-                <a href="#">TECHNOLOGY STACK</a>
+                <a href="#project">PROJECT</a>
+                <a href="#tech">TECHNOLOGY STACK</a>
             </div>
         </div>
         <div class="lines__line mod--header-1"></div>
-        <h2><a href="#">CONTACT ME</a></h2>
+        <h2><a href="#contact">CONTACT ME</a></h2>
     </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <path
+            d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
+            fill="#101010" class="star1" />
+    </svg>
+
 
     <section class="sec2">
         <div class="sec2-lf">
@@ -54,12 +61,19 @@
             <h1 class="bold">2023</h1>
         </div>
         <div class="sec2-rt">
-            <div class="box box1"></div>
-            <div class="box box2"></div>
+            <div class="box box1 active"></div>
+            <div class="box box2 active"></div>
         </div>
     </section>
+    <div class="star2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <path
+                d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
+                fill="#101010" />
+        </svg>
+    </div>
 
-    <section class="sec3">
+    <section class="sec3" id="about">
         <div class="sec3-tp">
             <div class="sec3-lf">
                 <div class="lf-img">
@@ -110,7 +124,7 @@
         </div>
     </section>
 
-    <section class="sec4">
+    <section class="sec4" id="project">
         <div class="sec4-tp">
             <h1><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                     <path
@@ -129,28 +143,34 @@
             </a>
 
             <div class="p1">
-                <div class="box box5 active">
-                    <img src="./images/Mr.도감.png" alt="식물도감">
+                <div class="pro">
+                    <div class="box box5 active">
+                        <img src="./images/Mr.도감.png" alt="식물도감">
+                    </div>
+                    <h2><a href="#">식물도감</a></h2>
+                    <p>2023.05</p>
+                    <h3>모바일 앱 UI/UX 리디자인</h3>
                 </div>
-                <h2><a href="#">식물도감</a></h2>
-                <p>2023.05</p>
-                <h3>모바일 앱 UI/UX 리디자인</h3>
             </div>
 
             <div class="p2">
-                <div class="box box6 active">
-                    <img src="./images/ipark.png" alt="아이파크">
+                <div class="pro">
+                    <div class="box box6 active">
+                        <img src="./images/ipark.png" alt="아이파크">
+                    </div>
+                    <h2><a href="#">IPARK MALL</a></h2>
+                    <p>2023.06</p>
+                    <h3>아이파크 몰 리디자인 및 퍼블리싱</h3>
                 </div>
-                <h2><a href="#">IPARK MALL</a></h2>
-                <p>2023.06</p>
-                <h3>아이파크 몰 리디자인 및 퍼블리싱</h3>
             </div>
 
             <div class="p3">
-                <div class="box box7 active"><a href="#"></a></div>
-                <h2>PORTFOLIO PAGE</h2>
-                <p>2023.07</p>
-                <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
+                <div class="pro">
+                    <div class="box box7 active"><img src="./images/Mr.도감.png" alt="식물도감"></div>
+                    <h2>PORTFOLIO PAGE</h2>
+                    <p>2023.07</p>
+                    <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
+                </div>
             </div>
 
             <a href="#" class="arrow-r"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="54"
@@ -161,7 +181,7 @@
         </div>
     </section>
 
-    <section class="sec5">
+    <section class="sec5" id="tech">
         <h1>TECHNOLOGY STACK</h1>
 
         <div class="sec5-flex">
@@ -214,7 +234,7 @@
         </div>
     </section>
 
-    <section class="sec6">
+    <section class="sec6" id="contact">
         <div class="sec6-lf">
             <h2>CONTACT</h2>
             <div class="boardcat">
@@ -223,14 +243,15 @@
         </div>
         <div class="sec6-rt">
             <div class="sec6-rt-1">
-                <a href="#">MAIN</a>
-                <a href="#">ABOUT ME</a>
-                <a href="#">PROJECT</a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                <a href="#top">MAIN</a>
+                <a href="#about">ABOUT ME</a>
+                <a href="#project">PROJECT</a>
+                <a href="#tech"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
                         fill="none">
-                        <path
-                            d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
-                            fill="#101010" />
+                        <a href="#">
+                            <path
+                                d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
+                                fill="#101010" />
                     </svg>TECHNOLOGY STACK
                 </a>
             </div>
