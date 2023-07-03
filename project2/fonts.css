@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'NanumSquareNeo-cBd';
-  src: url(./NanumSquareNeo-cBd.woff2) format('woff2');
+  src: url(../common/fonts/NanumSquareNeo-cBd.woff2) format('woff2');
 }
 
 @font-face {
