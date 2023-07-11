@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>YERIM's Portfolio</title>
     <!-- og -->
@@ -16,6 +17,11 @@
     <link rel="icon" href="./images/allcat.png" type="image/x-icon">
     <!-- fonts -->
     <link rel="stylesheet" href="./fonts.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <!-- js -->
+    <link rel="stylesheet" href="./index.js">
+    </link>
     <!-- reset -->
     <link rel="stylesheet" href="./common/style/minireset.min.css">
     <!-- css -->
@@ -23,7 +29,7 @@
 </head>
 
 <body>
-    <section class="sec1" id="top">
+    <section class="sec1 event" id="top">
         <h1>PORTFOLIO</h1>
         <div class="nav">
             <div class="nav-lf">
@@ -45,7 +51,7 @@
         <h2><a href="#contact">CONTACT ME</a></h2>
     </section>
 
-    <section class="sec2">
+    <section class="sec2 event">
         <div class="sec2-lf">
             <h1>YERIM'S</h1>
             <div class="allcat">
@@ -68,7 +74,7 @@
         </svg>
     </div>
 
-    <section class="sec3" id="about">
+    <section class="sec3 event" id="about">
         <div class="sec3-tp">
             <div class="sec3-lf">
                 <div class="lf-img">
@@ -123,7 +129,7 @@
         </div>
     </section>
 
-    <section class="sec4" id="project">
+    <section class="sec4 event" id="project">
         <div class="sec4-tp">
             <h1><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                     <path
@@ -141,48 +147,62 @@
                 </svg>
             </a>
 
-            <div class="p1">
-                <div class="pro">
-                    <div class="box box5">
-                        <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="p1 swiper-slide">
+                        <div class="pro">
+                            <div class="box box5">
+                                <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                            </div>
+                            <h2><a href="#">식물도감</a></h2>
+                            <p>2023.05</p>
+                            <h3>모바일 앱 UI/UX 리디자인</h3>
+                        </div>
                     </div>
-                    <h2><a href="#">식물도감</a></h2>
-                    <p>2023.05</p>
-                    <h3>모바일 앱 UI/UX 리디자인</h3>
-                </div>
-            </div>
 
-            <div class="p2">
-                <div class="pro">
-                    <div class="box box6">
-                        <a href="#"><img src="./images/ipark.png" alt="아이파크"></a>
+                    <div class="p2 swiper-slide">
+                        <div class="pro">
+                            <div class="box box6">
+                                <a href="#"><img src="./images/ipark.png" alt="아이파크"></a>
+                            </div>
+                            <h2><a href="#">IPARK MALL</a></h2>
+                            <p>2023.06</p>
+                            <h3>아이파크 몰 리디자인 및 퍼블리싱</h3>
+                        </div>
                     </div>
-                    <h2><a href="#">IPARK MALL</a></h2>
-                    <p>2023.06</p>
-                    <h3>아이파크 몰 리디자인 및 퍼블리싱</h3>
-                </div>
-            </div>
 
-            <div class="p3">
-                <div class="pro">
-                    <div class="box box7">
-                        <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                    <div class="p3 swiper-slide">
+                        <div class="pro">
+                            <div class="box box7">
+                                <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                            </div>
+                            <h2>PORTFOLIO PAGE</h2>
+                            <p>2023.07</p>
+                            <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
+                        </div>
                     </div>
-                    <h2>PORTFOLIO PAGE</h2>
-                    <p>2023.07</p>
-                    <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
-                </div>
-            </div>
 
-            <a href="#" class="arrow-r"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="54"
-                    viewBox="0 0 35 54" fill="none">
-                    <path d="M5 5L27 27L5 49" stroke="black" stroke-width="10" stroke-linecap="round" />
-                </svg>
-            </a>
-        </div>
+                    <div class="p4 swiper-slide">
+                        <div class="pro">
+                            <div class="box box8">
+                                <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                            </div>
+                            <h2>PORTFOLIO PAGE</h2>
+                            <p>2023.07</p>
+                            <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="54"
+                            viewBox="0 0 35 54" fill="none">
+                            <path d="M5 5L27 27L5 49" stroke="black" stroke-width="10" stroke-linecap="round" />
+                        </svg></div>
+
+                </div>
     </section>
 
-    <section class="sec5" id="tech">
+    <section class="sec5 event" id="tech">
 
         <h1>TECHNOLOGY STACK</h1>
 
@@ -231,7 +251,7 @@
         </div>
     </section>
 
-    <section class="sec6" id="contact">
+    <section class="sec6 event" id="contact">
         <div class="sec6-lf">
             <h2>CONTACT</h2>
             <div class="boardcat">
