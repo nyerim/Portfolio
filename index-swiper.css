@@ -3,9 +3,25 @@
 .swiper-container {
 }
 .swiper-wrapper {
-  /* width: 100%;
-  padding-left: 180px; */
 }
-/* .swiper-slide {
-  width: 100%;
-} */
+.swiper-slide {
+  margin: auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background: url("http://www.w3.org/2000/svg") no-repeat;
+}
+.swiper-button-prev {
+  margin-left: 35px;
+}
+.swiper-button-next {
+  margin-right: 35px;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}

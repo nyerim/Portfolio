@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'NeueHaasDisplay-Bold';
+  font-family: "NeueHaasDisplay-Bold";
   /* font-family: 'NeueHaasDisplay-Light'; */
 
   /* font-family: 'NanumSquareNeo-eHv'; */
@@ -42,7 +42,7 @@ body {
 .sec1 .nav {
   display: flex;
   align-items: center;
-  font-family: 'NeueHaasDisplay-Light';
+  font-family: "NeueHaasDisplay-Light";
 }
 
 .sec1 .nav a:hover {
@@ -102,7 +102,7 @@ body {
 } */
 
 .sec1 h2 {
-  font-family: 'NeueHaasDisplay-Bold';
+  font-family: "NeueHaasDisplay-Bold";
   height: 130px;
   font-size: 33px;
   line-height: 4;
@@ -141,7 +141,7 @@ body {
 }
 
 .sec2 .sec2-lf h1 {
-  font-family: 'NeueHaasDisplay-Light';
+  font-family: "NeueHaasDisplay-Light";
   font-size: 85px;
   font-weight: 100;
   text-align: left;
@@ -174,7 +174,7 @@ body {
 }
 
 .sec2 .sec2-lf .bold {
-  font-family: 'NeueHaasDisplay-Bold';
+  font-family: "NeueHaasDisplay-Bold";
   text-align: right;
 }
 
@@ -266,7 +266,7 @@ body {
 }
 
 .sec3 .sec3-tp .sec3-rt p {
-  font-family: 'NanumSquareNeo-cBd';
+  font-family: "NanumSquareNeo-cBd";
 }
 
 .sec3 .sec3-bt {
@@ -310,7 +310,7 @@ body {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .sec3 .sec3-bt .sec3-btmd .sec-3-box .box3 p {
-  font-family: 'NanumSquareNeo-cBd';
+  font-family: "NanumSquareNeo-cBd";
   margin-top: 20px;
 }
 
@@ -327,7 +327,7 @@ body {
 }
 
 .sec3 .sec3-bt .sec3-btn {
-  font-family: 'NeueHaasDisplay-Light';
+  font-family: "NeueHaasDisplay-Light";
   display: flex;
   justify-content: center;
   margin-left: -100px;
@@ -385,11 +385,11 @@ body {
 }
 
 /* sec4 */
-.pro {
+/* .pro {
   border: 1px solid #000;
   background-color: #fff;
   padding: 30px;
-  width: 430px;
+  width: 330px;
   margin: 0;
 }
 .sec4 .sec4-tp h1 {
@@ -405,11 +405,27 @@ body {
   width: 100%;
   margin-top: 3%;
 }
+.sec4 .box {
+  width: 300px;
+  margin: auto;
+}
 .sec4 .box-txt {
   width: 200px;
+  margin: auto;
 }
-/* .sec4 {
-  padding: 0;
+.sec4 .sec4-bt {
+  font-family: "NanumSquareNeo-cBd";
+  display: flex;
+  justify-content: space-evenly;
+}
+.sec4 .p1 {
+  width: 200px;
+}
+.swiper-slide {
+  width: 100%;
+} */
+.sec4 {
+  padding-bottom: 6%;
   border-bottom: 1px solid #000;
 }
 
@@ -435,7 +451,7 @@ body {
 
 .sec4 .sec4-tp h1 {
   font-size: 70px;
-  margin-bottom: 4%;
+  margin-bottom: 2.5%;
 }
 
 .sec4 .sec4-tp svg {
@@ -445,10 +461,7 @@ body {
 }
 
 .sec4 .sec4-bt {
-  font-family: 'NanumSquareNeo-cBd';
-  display: flex;
-  justify-content: space-evenly;
-  align-items: start;
+  font-family: "NanumSquareNeo-cBd";
 }
 
 .sec4 .sec4-bt .box {
@@ -476,15 +489,15 @@ body {
 }
 
 .sec4 .sec4-bt .box6 {
-  height: 385px;
-  height: 442px;
+  height: 419px;
   filter: brightness(40%);
 }
 
 .sec4 .sec4-bt .box6 img {
-  object-fit: cover;
+  object-fit: contain;
   width: 380px;
-  height: 442px;
+  height: 430px;
+  transform: translateY(-5px);
   filter: saturate(0%);
 }
 
@@ -519,13 +532,19 @@ body {
 }
 
 .sec4 .sec4-bt h2 {
-  font-family: 'NanumSquareNeo-eHv';
+  font-family: "NanumSquareNeo-eHv";
   font-size: 30px;
   width: 200px;
   margin: auto;
   margin-top: 30px;
 }
 
+.sec4 .sec4-bt .p4 {
+  display: none;
+}
+.sec4 .sec4-bt .p5 {
+  display: none;
+}
 .sec4 .sec4-bt .p1 h2 {
   width: 120px;
 }
@@ -544,12 +563,8 @@ body {
   font-size: 20px;
 }
 
-.sec4 .sec4-bt .arrow-r {
-  margin-top: 15%;
-  margin-right: 4%;
-}
 */
-*/
+
 
 /* sec5 */
 .sec5 {
@@ -564,7 +579,7 @@ body {
 }
 
 .sec5 li {
-  font-family: 'NanumSquareNeo-cBd';
+  font-family: "NanumSquareNeo-cBd";
   list-style: circle;
   line-height: 2;
 }
@@ -580,7 +595,7 @@ body {
 }
 
 .sec5 .sec5-4 h3 {
-  font-family: 'NanumSquareNeo-eHv';
+  font-family: "NanumSquareNeo-eHv";
 }
 
 .sec5-1 {
@@ -715,7 +730,7 @@ body {
 .sec6 .sec6-rt .sec6-rt-1 {
   display: flex;
   flex-direction: column;
-  font-family: 'NeueHaasDisplay-Light';
+  font-family: "NeueHaasDisplay-Light";
   line-height: 1.8;
 }
 .sec6 .sec6-rt .sec6-rt-1 svg {
@@ -731,7 +746,7 @@ body {
 }
 
 .sec6 .sec6-rt .sec6-rt-2 {
-  font-family: 'NeueHaasDisplay-Light';
+  font-family: "NeueHaasDisplay-Light";
   padding: 20px;
   border: 1px solid #000;
 }
