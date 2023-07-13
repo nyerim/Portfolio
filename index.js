@@ -72,14 +72,19 @@ const mySwiper = new Swiper('.swiper-container', {
 function toggleImg1() {
   var img1 = document.getElementById("img01");
   var img3 = document.getElementById("img03");
-  img1.src = "./images/a.png";
-  img3.src = "./images/a.png";
+  img1.src = "./images/city.jpg";
+  img3.src = "./images/city.jpg";
+  btn1.classList.add("active");
+  btn2.classList.remove("active");
 }
 
 function toggleImg2() {
   var img2 = document.getElementById("img01");
   var img4 = document.getElementById("img03");
-  img2.src = "./images/city.jpg";
-  img4.src = "./images/city.jpg";
+  img2.src = "./images/a.png";
+  img4.src = "./images/a.png";
+  btn1.classList.remove("active");
+  btn2.classList.add("active");
 }
+
 
