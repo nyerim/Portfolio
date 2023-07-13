@@ -3,12 +3,13 @@
 .swiper-container {
 }
 .swiper-wrapper {
+  margin: auto;
 }
 .swiper-slide {
   margin: auto;
-  width: 95%;
   display: flex;
   justify-content: space-evenly;
+  width: 85%;
 }
 
 .swiper-button-prev,
@@ -16,10 +17,10 @@
   background: url("http://www.w3.org/2000/svg") no-repeat;
 }
 .swiper-button-prev {
-  margin-left: 35px;
+  margin-left: 30px;
 }
 .swiper-button-next {
-  margin-right: 35px;
+  margin-right: 30px;
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {
