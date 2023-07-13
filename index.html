@@ -24,17 +24,21 @@
     <!-- fonts -->
     <link rel="stylesheet" href="./fonts.css">
 
-    <!-- swiper css-->
-    <link rel="stylesheet" href="./common/style/swiper-bundle.min.css">
+    <!-- 가져오는 swiper css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
+    <!-- 내가 만든 swper css -->
+    <link rel="stylesheet" href="./index-swiper.css">
     <!-- css -->
     <link rel="stylesheet" href="./index.css">
 
     <!-- fonts -->
     <link rel="stylesheet" href="./fonts.css">
 
-    <!-- js -->
-    <link rel="stylesheet" href="./index.js"> 
-
+    <!-- jQuery -->
+    <script src="./common/style/jquery-3.7.0.min.js"></script>
+    <!-- swiper css -->
+    <script src="./common/style/swiper-bundle.min.js"></script>
     <!-- js-->
     <script defer src="./index.js"></script>
 
@@ -42,50 +46,52 @@
 </head>
 
 <body>
-    <section class="sec1 event" id="top">
-        <h1>PORTFOLIO</h1>
-        <div class="nav">
-            <div class="nav-lf">
-                <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
-                        fill="none">
-                        <path
-                            d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
-                            fill="#101010" />
-                    </svg>MAIN</a>
-                <a href="#about">ABOUT ME</a>
-            </div>
-
-            <div class="nav-rt">
-                <a href="#project">PROJECT</a>
-                <a href="#tech">TECHNOLOGY STACK</a>
-            </div>
-        </div>
-        <img src="./images/star.png" alt="포트폴리오 꾸밈별">
-        <h2><a href="#contact">CONTACT ME</a></h2>
-    </section>
-
-    <section class="sec2 event">
-        <div class="sec2-lf">
-            <h1>YERIM'S</h1>
-            <div class="allcat">
-                <img src="./images/allcat.svg" alt="검은고양">
-                <h1 class="bold">WEB DESIGN</h1>
-            </div>
+    <section class="sec1_sec2">
+        <section class="sec1 event" id="top">
             <h1>PORTFOLIO</h1>
-            <h1 class="bold">2023</h1>
-        </div>
-        <div class="sec2-rt">
-            <div class="box box1 active"></div>
-            <div class="box box2 active"></div>
+            <div class="nav">
+                <div class="nav-lf">
+                    <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                            fill="none">
+                            <path
+                                d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
+                                fill="#101010" />
+                        </svg>MAIN</a>
+                    <a href="#about">ABOUT ME</a>
+                </div>
+
+                <div class="nav-rt">
+                    <a href="#project">PROJECT</a>
+                    <a href="#tech">TECHNOLOGY STACK</a>
+                </div>
+            </div>
+            <img src="./images/star.png" alt="포트폴리오 꾸밈별">
+            <h2><a href="#contact">CONTACT ME</a></h2>
+        </section>
+
+        <section class="sec2 event">
+            <div class="sec2-lf">
+                <h1>YERIM'S</h1>
+                <div class="allcat">
+                    <img src="./images/allcat.svg" alt="검은고양">
+                    <h1 class="bold">WEB DESIGN</h1>
+                </div>
+                <h1>PORTFOLIO</h1>
+                <h1 class="bold">2023</h1>
+            </div>
+            <div class="sec2-rt">
+                <div class="box box1 active"></div>
+                <div class="box box2 active"></div>
+            </div>
+        </section>
+        <div class="star2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path
+                    d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
+                    fill="#101010" />
+            </svg>
         </div>
     </section>
-    <div class="star2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-            <path
-                d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
-                fill="#101010" />
-        </svg>
-    </div>
 
     <section class="sec3 event" id="about">
         <div class="sec3-tp">
@@ -142,7 +148,7 @@
         </div>
     </section>
 
-    <section class="sec4 event" id="project">
+    <section class="sec4" id="project">
         <div class="sec4-tp">
             <h1><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                     <path
@@ -153,55 +159,93 @@
             </h1>
         </div>
 
-        <div class="sec4-bt">
-
+        <section class="sec4-bt">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="p1 swiper-slide">
-                        <div class="pro">
-                            <div class="box box5">
-                                <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                    <div class="swiper-slide">
+                        <div class="p1">
+                            <div class="pro">
+                                <div class="box box5">
+                                    <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                                </div>
+                                <div class="box-txt">
+                                    <h2><a href="#">식물도감</a></h2>
+                                    <p>2023.05</p>
+                                    <h3>모바일 앱 UI/UX 리디자인</h3>
+                                </div>
                             </div>
-                            <h2><a href="#">식물도감</a></h2>
-                            <p>2023.05</p>
-                            <h3>모바일 앱 UI/UX 리디자인</h3>
+                        </div>
+
+                        <div class="p2">
+                            <div class="pro">
+                                <div class="box box6">
+                                    <a href="#"><img src="./images/ipark.png" alt="아이파크"></a>
+                                </div>
+                                <div class="box-txt">
+                                    <h2><a href="#">IPARK MALL</a></h2>
+                                    <p>2023.06</p>
+                                    <h3>아이파크 몰 리디자인 및 퍼블리싱</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p3">
+                            <div class="pro">
+                                <div class="box box7">
+                                    <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                                </div>
+                                <div class="box-txt">
+                                    <h2>PORTFOLIO PAGE</h2>
+                                    <p>2023.07</p>
+                                    <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="p2 swiper-slide">
-                        <div class="pro">
-                            <div class="box box6">
-                                <a href="#"><img src="./images/ipark.png" alt="아이파크"></a>
+                    <div class="swiper-slide">
+                        <div class="p4">
+                            <div class="pro">
+                                <div class="box box8">
+                                    <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                                </div>
+                                <div class="box-txt">
+                                    <h2>PORTFOLIO PAGE</h2>
+                                    <p>2023.07</p>
+                                    <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
+                                </div>
                             </div>
-                            <h2><a href="#">IPARK MALL</a></h2>
-                            <p>2023.06</p>
-                            <h3>아이파크 몰 리디자인 및 퍼블리싱</h3>
+                        </div>
+
+                        <div class="p5">
+                            <div class="pro">
+                                <div class="box box8">
+                                    <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                                </div>
+                                <div class="box-txt">
+                                    <h2>PORTFOLIO PAGE</h2>
+                                    <p>2023.07</p>
+                                    <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p6">
+                            <div class="pro">
+                                <div class="box box8">
+                                    <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
+                                </div>
+                                <div class="box-txt">
+                                    <h2>PORTFOLIO PAGE</h2>
+                                    <p>2023.07</p>
+                                    <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="p3 swiper-slide">
-                        <div class="pro">
-                            <div class="box box7">
-                                <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
-                            </div>
-                            <h2>PORTFOLIO PAGE</h2>
-                            <p>2023.07</p>
-                            <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
-                        </div>
-                    </div>
-
-                    <div class="p4 swiper-slide">
-                        <div class="pro">
-                            <div class="box box8">
-                                <a href="#"><img src="./images/Mr.도감.png" alt="식물도감"></a>
-                            </div>
-                            <h2>PORTFOLIO PAGE</h2>
-                            <p>2023.07</p>
-                            <h3>포트폴리오 메인 페이지 제작 및 퍼블리싱</h3>
-                        </div>
-                    </div>
-
-                    <div class="swiper-button-prev">
+                <!-- <div class="swiper-button-prev">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="46"
                             viewBox="0 0 35 54" fill="none">
                             <path d="M30 5L8 27L30 49" stroke="black" stroke-width="10" stroke-linecap="round" />
@@ -213,7 +257,10 @@
                             <path d="M5 5L27 27L5 49" stroke="black" stroke-width="10" stroke-linecap="round" />
                         </svg>
                     </div>
-                </div>
+                </div> 
+                -->
+            </div>
+        </section>
     </section>
 
     <section class="sec5 event" id="tech">
@@ -221,7 +268,7 @@
         <h1>TECHNOLOGY STACK</h1>
 
         <div class="sec5-flex">
-            <div class="sec5-1">
+            <div class="sec5-1 li-width">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                     <path
                         d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
@@ -236,7 +283,7 @@
                 </ul>
             </div>
 
-            <div class="sec5-2">
+            <div class="sec5-2 li-width">
                 <h3>JavaScript & jQuery</h3>
                 <ul>
                     <li>변수와 데이터 타입</li>
@@ -245,7 +292,7 @@
                 </ul>
             </div>
 
-            <div class="sec5-3">
+            <div class="sec5-3 li-width">
                 <h3>Tool</h3>
                 <ul>
                     <li> VSCODE</li>
@@ -254,7 +301,7 @@
                 </ul>
             </div>
 
-            <div class="sec5-4">
+            <div class="sec5-4 li-width">
                 <h3>기타</h3>
                 <ul>
                     <li>UI 디자인</li>
@@ -265,7 +312,7 @@
         </div>
     </section>
 
-    <section class="sec6 event" id="contact">
+    <section class="sec6" id="contact">
         <div class="sec6-lf">
             <h2>CONTACT</h2>
             <div class="boardcat">
@@ -277,11 +324,12 @@
                 <a href="#top">MAIN</a>
                 <a href="#about">ABOUT ME</a>
                 <a href="#project">PROJECT</a>
-                <a href="#tech"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                    <path
-                        d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
-                        fill="#101010" />
-                </svg>TECHNOLOGY STACK</a>
+                <a href="#tech"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                        fill="none">
+                        <path
+                            d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
+                            fill="#101010" />
+                    </svg>TECHNOLOGY STACK</a>
             </div>
             <div class="sec6-rt-2">
                 <a href="#">yogut3395@naver.com</a>
