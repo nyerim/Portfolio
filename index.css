@@ -220,7 +220,7 @@ body {
   display: flex;
   padding-left: 10%;
   margin-top: 3%;
-  padding-top: 4%;
+  padding-top: 3%;
   flex-direction: column;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -234,7 +234,6 @@ body {
 .sec3 .sec3-tp .sec3-lf {
   display: flex;
   align-items: center;
-  margin-top: 30px;
 }
 
 .sec3 .sec3-tp .sec3-lf img {
@@ -260,7 +259,7 @@ body {
   width: 800px;
   border: 1px solid #000;
   background-color: #fff;
-  padding: 40px;
+  padding: 20px 30px;
   text-align: left;
   /* margin-top: 30px; */
   margin-left: 35px;
@@ -269,10 +268,6 @@ body {
 
 .sec3 .sec3-tp .sec3-rt p {
   font-family: "NanumSquareNeo-cBd";
-}
-
-.sec3 .sec3-bt {
-  padding-bottom: 7%;
 }
 
 .sec3 .sec3-bt-flex {
@@ -294,14 +289,14 @@ body {
 }
 
 .sec3 .sec3-bt .sec3-btmd > img {
-  width: 45%;
-  margin-top: 3%;
+  width: 48%;
+  margin: 4% 0;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .sec3 .sec3-bt .sec3-btmd .sec-3-box {
-  margin-left: -80px;
-  margin-top: 130px;
+  margin-left: -60px;
+  margin-top: 150px;
 }
 
 .sec3 .sec3-bt .sec3-btmd .sec-3-box .box3 {
@@ -332,13 +327,13 @@ body {
   font-family: "NeueHaasDisplay-Light";
   display: flex;
   justify-content: center;
-  margin-left: -100px;
+  margin-right: 100px;
 }
 
 .sec3 .sec3-bt .sec3-btn .sec3-btn1 {
   font-size: 20px;
   display: flex;
-  width: 140px;
+  width: 180px;
   height: 50px;
   line-height: 2.5;
   color: #000;
@@ -356,10 +351,10 @@ body {
   font-size: 20px;
   display: flex;
   line-height: 2.5;
-  width: 150px;
+  width: 140px;
   border: 1px solid #000;
   border-radius: 30px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .sec3 .sec3-bt .sec3-btn .sec3-btn2 svg {
@@ -381,51 +376,11 @@ body {
   color: #fff;
   transition: 0.4s;
 }
-
 .sec3 .sec3-bt .sec3-btn .sec3-btn2:hover svg {
   filter: brightness(100);
 }
 
 /* sec4 */
-/* .pro {
-  border: 1px solid #000;
-  background-color: #fff;
-  padding: 30px;
-  width: 330px;
-  margin: 0;
-}
-.sec4 .sec4-tp h1 {
-  font-size: 70px;
-  margin-bottom: 4%;
-}
-.sec4 .sec4-tp svg {
-  width: 60px;
-  height: 60px;
-  margin-right: 20px;
-}
-.sec4 .sec4-tp {
-  width: 100%;
-  margin-top: 3%;
-}
-.sec4 .box {
-  width: 300px;
-  margin: auto;
-}
-.sec4 .box-txt {
-  width: 200px;
-  margin: auto;
-}
-.sec4 .sec4-bt {
-  font-family: "NanumSquareNeo-cBd";
-  display: flex;
-  justify-content: space-evenly;
-}
-.sec4 .p1 {
-  width: 200px;
-}
-.swiper-slide {
-  width: 100%;
-} */
 .sec4 {
   padding-bottom: 2%;
 }

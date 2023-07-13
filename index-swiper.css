@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-.swiper-container {
-}
 .swiper-wrapper {
   margin: auto;
 }
@@ -25,4 +23,11 @@
 .swiper-button-next::after,
 .swiper-button-prev::after {
   display: none;
+}
+
+img#img01,
+img#img03 {
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
