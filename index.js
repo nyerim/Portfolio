@@ -50,7 +50,6 @@ const mySwiper = new Swiper('.swiper-container', {
 });
 
 /* button */
-
 $('a[href="#"]').on('click', (evt) => {
   evt.preventDefault();
 });
@@ -82,3 +81,11 @@ function toggleImg2() {
   img2.src = './images/a.png';
   img4.src = './images/a.png';
 }
+
+/* cat */
+$('.btn_wrapper > li:first-child > img').on('click', () => {
+  $('.main_img img').attr({
+    src: './images/keyboarda.png',
+    alt: 'keyboardcat angry',
+  });
+});

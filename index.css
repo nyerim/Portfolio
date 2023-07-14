@@ -257,12 +257,27 @@ body {
   border-radius: 50%;
   border: 1px solid #000;
   background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+.sec3 .sec3-tp .sec3-lf .lf-img:hover .sung {
+  transform: translateY(-10px);
+}
+
+.sec3 .sec3-tp .sec3-lf .lf-img .sung {
+  width: 50px;
+  position: absolute;
+  left: 53px;
+  top: 20px;
+  transition: 0.4s;
 }
 
 .sec3 .sec3-tp .sec3-lf h2 {
   font-size: 30px;
   margin-left: 50px;
   margin-right: 80px;
+  /* height: 200px; 예림아 줄!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  border-right: 1px solid #000; */
 }
 
 .sec3 .sec3-tp .sec3-rt {
@@ -632,14 +647,15 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border-bottom: 1px solid #5e5e5e;
-  padding: 20px;
+  padding-left: 210px;
 }
 
 .sec5-2 ul {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-right: 10px;
+  margin-right: 180px;
+  margin-left: 160px;
 }
 
 .sec5-3 {
@@ -650,15 +666,15 @@ body {
   padding: 20px;
 }
 .sec5-3 h3 {
-  margin-left: 20px;
-  margin-right: 30px;
+  margin-left: 300px;
+  margin-right: 130px;
 }
 
 .sec5-3 ul {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-right: 10px;
+  margin-left: 150px;
 }
 
 .sec5-4 {
@@ -668,12 +684,14 @@ body {
   border-bottom: 1px solid #5e5e5e;
   padding: 20px;
 }
-
+.sec5-4 h3 {
+  margin-left: 20px;
+}
 .sec5-4 ul {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-right: 80px;
+  margin-left: -30px;
 }
 
 .sec5-1 svg {
@@ -684,9 +702,14 @@ body {
   left: 200px;
 }
 
+.sec5-2 .li-width {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
 .li-width {
-  padding-top: 52px;
-  padding-bottom: 52px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 /* sec6 */
@@ -719,19 +742,6 @@ body {
   margin-top: 10px;
   margin-left: 20px;
   cursor: pointer;
-}
-
-.sec6 .sec6-lf .boardcat:hover .sung {
-  transform: translateY(-10px);
-}
-
-.sec6 .sec6-lf .boardcat .sung {
-  width: 30px;
-  height: 10px;
-  position: absolute;
-  left: 32px;
-  top: 25px;
-  transition: 0.4s;
 }
 
 .sec6 .sec6-lf .boardcat {
