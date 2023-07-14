@@ -4,13 +4,13 @@ html {
   scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
-  display: none;
+  width: 10px;
 }
-/* body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: #1a1a1a;
   height: 30%;
-  border-radius: 10px;
-} */
+  border-radius: 5px;
+}
 body {
   font-family: 'NeueHaasDisplay-Bold';
   /* font-family: 'NeueHaasDisplay-Light'; */
@@ -512,7 +512,7 @@ body {
   filter: brightness(40%);
 }
 .sec4 .sec4-bt .box8 img {
-  width: 380px;
+  width: 360px;
   height: 370px;
   object-fit: cover;
   filter: saturate(0%);
@@ -713,11 +713,25 @@ body {
   border-right: 1px solid #000;
 }
 
-.sec6 .sec6-lf img {
-  width: 100px;
+.sec6 .sec6-lf .boardcat img {
+  width: 90px;
   height: 100px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.sec6 .sec6-lf .boardcat:hover .sung {
+  transform: translateY(-10px);
+}
+
+.sec6 .sec6-lf .boardcat .sung {
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  left: 32px;
+  top: 25px;
+  transition: 0.4s;
 }
 
 .sec6 .sec6-lf .boardcat {
@@ -727,6 +741,7 @@ body {
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 50%;
+  position: relative;
 }
 
 .sec6 .sec6-lf h2 {
