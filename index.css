@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
   border-radius: 10px;
 } */
 body {
-  font-family: "NeueHaasDisplay-Bold";
+  font-family: 'NeueHaasDisplay-Bold';
   /* font-family: 'NeueHaasDisplay-Light'; */
 
   /* font-family: 'NanumSquareNeo-eHv'; */
@@ -50,7 +50,7 @@ body {
 .sec1 .nav {
   display: flex;
   align-items: center;
-  font-family: "NeueHaasDisplay-Light";
+  font-family: 'NeueHaasDisplay-Light';
 }
 
 .sec1 .nav a:hover {
@@ -95,7 +95,7 @@ body {
 }
 
 .sec1 h2 {
-  font-family: "NeueHaasDisplay-Bold";
+  font-family: 'NeueHaasDisplay-Bold';
   height: 110px;
   font-size: 33px;
   line-height: 3.4;
@@ -134,7 +134,7 @@ body {
 }
 
 .sec2 .sec2-lf h1 {
-  font-family: "NeueHaasDisplay-Light";
+  font-family: 'NeueHaasDisplay-Light';
   font-size: 85px;
   font-weight: 100;
   text-align: left;
@@ -185,7 +185,7 @@ body {
 }
 
 .sec2 .sec2-lf .bold {
-  font-family: "NeueHaasDisplay-Bold";
+  font-family: 'NeueHaasDisplay-Bold';
   text-align: right;
 }
 
@@ -209,15 +209,7 @@ body {
   width: 70px;
   height: 70px;
   margin-left: 20px;
-  animation: moving 0.5s infinite alternate;
-}
-@keyframes moving {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translateX(50px, -50px);
-  }
+  animation: blink 1s infinite alternate;
 }
 
 .sec2 .sec2-rt > .box1 {
@@ -285,7 +277,7 @@ body {
 }
 
 .sec3 .sec3-tp .sec3-rt p {
-  font-family: "NanumSquareNeo-cBd";
+  font-family: 'NanumSquareNeo-cBd';
 }
 
 .sec3 .sec3-bt-flex {
@@ -325,7 +317,7 @@ body {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .sec3 .sec3-bt .sec3-btmd .sec-3-box .box3 p {
-  font-family: "NanumSquareNeo-cBd";
+  font-family: 'NanumSquareNeo-cBd';
   margin-top: 20px;
 }
 
@@ -342,18 +334,18 @@ body {
 }
 
 .sec3 .sec3-bt .sec3-btn {
-  font-family: "NeueHaasDisplay-Light";
+  font-family: 'NeueHaasDisplay-Light';
   display: flex;
   justify-content: center;
   margin-right: 100px;
 }
 
 .sec3 .sec3-bt .sec3-btn .sec3-btn1 {
-  font-size: 20px;
+  font-size: 23px;
   display: flex;
   width: 180px;
   height: 50px;
-  line-height: 2.5;
+  line-height: 2.3;
   background-color: #000;
   color: #fff;
   border-radius: 30px;
@@ -361,29 +353,30 @@ body {
 
 .sec3 .sec3-bt .sec3-btn .sec3-btn1 svg {
   width: 20px;
-  margin: 5px 5px 0 18px;
+  margin: 5px 5px 0 35px;
   filter: invert(100);
 }
 
 .sec3 .sec3-bt .sec3-btn .sec3-btn2 {
   height: 50px;
-  font-size: 20px;
+  font-size: 23px;
   display: flex;
-  line-height: 2.5;
+  line-height: 2.3;
   width: 140px;
-  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
   border-radius: 30px;
   margin-left: 40px;
 }
 
 .sec3 .sec3-bt .sec3-btn .sec3-btn2 svg {
   width: 20px;
-  margin: 5px 5px 0 13px;
+  margin: 5px 5px 0 35px;
+  filter: invert(100);
 }
 
 .sec3 .sec3-bt .sec3-btn .sec3-btn1.active {
   background-color: #000;
-  color: #fff;
   transition: 0.4s;
 }
 .sec3 .sec3-bt .sec3-btn .sec3-btn1.active svg {
@@ -436,7 +429,7 @@ body {
 }
 
 .sec4 .sec4-bt {
-  font-family: "NanumSquareNeo-cBd";
+  font-family: 'NanumSquareNeo-cBd';
 }
 
 .sec4 .sec4-bt .box {
@@ -509,7 +502,7 @@ body {
 }
 
 .sec4 .sec4-bt h2 {
-  font-family: "NanumSquareNeo-eHv";
+  font-family: 'NanumSquareNeo-eHv';
   font-size: 30px;
   width: 300px;
   margin: auto;
@@ -596,13 +589,13 @@ body {
 .sec5 h1 {
   margin-top: 3.5%;
   font-size: 70px;
-  padding: 3% 0;
+  padding: 2% 0;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
 }
 
 .sec5 li {
-  font-family: "NanumSquareNeo-cBd";
+  font-family: 'NanumSquareNeo-cBd';
   list-style: circle;
   line-height: 2;
 }
@@ -618,7 +611,7 @@ body {
 }
 
 .sec5 .sec5-4 h3 {
-  font-family: "NanumSquareNeo-eHv";
+  font-family: 'NanumSquareNeo-eHv';
 }
 
 .sec5-1 {
@@ -693,8 +686,8 @@ body {
 }
 
 .li-width {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 49px;
+  padding-bottom: 49px;
 }
 
 /* sec6 */
@@ -754,7 +747,7 @@ body {
 .sec6 .sec6-rt .sec6-rt-1 {
   display: flex;
   flex-direction: column;
-  font-family: "NeueHaasDisplay-Light";
+  font-family: 'NeueHaasDisplay-Light';
   line-height: 1.8;
 }
 .sec6 .sec6-rt .sec6-rt-1 svg {
@@ -770,7 +763,7 @@ body {
 }
 
 .sec6 .sec6-rt .sec6-rt-2 {
-  font-family: "NeueHaasDisplay-Light";
+  font-family: 'NeueHaasDisplay-Light';
   padding: 20px;
   border: 1px solid #000;
 }
