@@ -487,6 +487,7 @@ body {
   object-fit: contain;
   height: 370px;
   filter: saturate(0%);
+  transform: translate(-2%, 0%);
 }
 
 .sec4 .sec4-bt .box7:hover {
