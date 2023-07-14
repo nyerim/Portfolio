@@ -483,11 +483,10 @@ body {
 }
 
 .sec4 .sec4-bt .box7 img {
-  width: 380px;
+  width: 360px;
   object-fit: contain;
   height: 370px;
   filter: saturate(0%);
-  transform: translate(-2%, 0%);
 }
 
 .sec4 .sec4-bt .box7:hover {
