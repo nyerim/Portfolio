@@ -54,20 +54,6 @@ $('a[href="#"]').on('click', (evt) => {
   evt.preventDefault();
 });
 
-//   function toggleImg1() {
-//     var img1 = document.getElementById("img01");
-//     var img3 = document.getElementById("img03");
-//     img1.src = "./images/a.png";
-//     img3.src = "./images/a.png";
-// }
-
-// function toggleImg2() {
-//     var img2 = document.getElementById("img01");
-//     var img4 = document.getElementById("img03");
-//     img2.src = "./images/city.jpg";
-//     img4.src = "./images/city.jpg";
-// }
-
 function toggleImg1() {
   var img1 = document.getElementById('img01');
   var img3 = document.getElementById('img03');
@@ -88,4 +74,14 @@ $('.btn_wrapper > li:first-child > img').on('click', () => {
     src: './images/keyboarda.png',
     alt: 'keyboardcat angry',
   });
+});
+
+const catImage = document.getElementById("catImage");
+
+catImage.addEventListener("mouseover", function() {
+    catImage.setAttribute("src", "./images/keyboarda.png");
+});
+
+catImage.addEventListener("mouseout", function() {
+    catImage.setAttribute("src", "./images/keyboard2.gif");
 });
