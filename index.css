@@ -229,8 +229,6 @@ body {
   height: 100vh;
   display: flex;
   padding-left: 10%;
-  margin-top: 3%;
-  padding-top: 3%;
   flex-direction: column;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -271,39 +269,25 @@ body {
   top: 20px;
   transition: 0.4s;
 }
-.sec3 .sec3-tp .sec3-lf .lf-img h2 {
-  font-family: 'NeueHaasDisplay-Light';
-  font-size: 23px;
-  width: 130px;
-  margin-top: 30px;
-  margin-left: 0px;
-  animation: shake 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(0px, 3px) rotate(0deg); }
-  
-  50% { transform: translate(0px, 0px) rotate(0deg); }
-  
-  100% { transform: translate(0px, 3px) rotate(0deg); }
-}
 
 .sec3 .sec3-tp .sec3-lf h2 {
   font-size: 30px;
   margin-left: 50px;
   margin-right: 80px;
-  /* height: 200px; 예림아 줄!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  border-right: 1px solid #000; */
+  width: 160px;
+  height: 250px;
+  border-right: 1px solid #000;
+  padding-top: 90px;
+  padding-right: 60px;
 }
 
 .sec3 .sec3-tp .sec3-rt {
   width: 800px;
   border: 1px solid #000;
   background-color: #fff;
-  padding: 20px 30px;
+  padding: 30px 40px;
   text-align: left;
-  /* margin-top: 30px; */
+  margin-top: 50px;
   margin-left: 35px;
   line-height: 3;
 }
@@ -614,7 +598,6 @@ body {
 /* sec5 */
 .sec5 {
   width: 80%;
-  height: 100vh;
   margin: auto;
 }
 
@@ -742,6 +725,7 @@ body {
   border: 1px solid #000;
   margin-bottom: 4%;
   margin-top: 4%;
+  position: relative;
 }
 
 .sec6 .sec6-lf {
@@ -759,7 +743,6 @@ body {
   height: 100px;
   margin-top: 10px;
   margin-left: 20px;
-  cursor: pointer;
 }
 
 .sec6 .sec6-lf .boardcat {
@@ -841,6 +824,14 @@ body {
 .sec6 .sec6-rt .sec6-rt-3 .box9 {
   background: #fff url(./images/github.png) no-repeat 50% / contain;
   background-size: 50px;
+}
+
+.sec6 .end{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: -30px; 
+  top: -30px;
 }
 
 /* box10 */
