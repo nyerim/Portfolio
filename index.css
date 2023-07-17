@@ -664,7 +664,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border-bottom: 1px solid #5e5e5e;
-  padding: 20px;
 }
 .sec5-3 h3 {
   margin-left: 300px;
@@ -683,7 +682,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border-bottom: 1px solid #5e5e5e;
-  padding: 20px;
 }
 .sec5-4 h3 {
   margin-left: 20px;
@@ -826,11 +824,11 @@ body {
   background-size: 50px;
 }
 
-.sec6 .end{
+.sec6 .end {
   position: absolute;
   width: 60px;
   height: 60px;
-  right: -30px; 
+  right: -30px;
   top: -30px;
 }
 
