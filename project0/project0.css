@@ -13,8 +13,66 @@ body {
   background-color:#f1f1f1;
 }
 
+/* 공통 */
 .hf{
   text-indent: -9999px;
   height: 30px;
   background-color: black;
+}
+
+section{
+  width: 96%;
+  background-color: #fff;
+  margin: 35px auto;
+}
+
+/* header */
+header{
+  width: 96%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  margin: 35px auto;
+}
+
+header .home{
+  width: 330px;
+  object-fit: cover;
+}
+
+header .header{
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+header h1{
+  font-family: 'NanumSquareNeo-dEb';
+  font-size: 60px;
+}
+
+header h2{
+  font-family: 'NanumSquareNeo-cBd';
+  font-size: 40px;
+}
+
+header h3, h4{
+  font-size: 28px;
+}
+
+header p{
+  font-size: 23px;
+  display: block;
+  background-color: #000;
+  border-radius: 30px;
+  padding: 10px;
+  color: #fff;
+}
+
+header .block-3{
+  display: flex;
 }
