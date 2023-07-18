@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body {
+  /* font-family: 'NeueHaasDisplay-Bold'; */
+  /* font-family: 'NeueHaasDisplay-Light'; */
+
+  /* font-family: 'NanumSquareNeo-eHv'; */
+  /* font-family: 'NanumSquareNeo-dEb'; 아래로 갈수록 얇아짐 */
+  /* font-family: 'NanumSquareNeo-cBd'; */
+  font-family: 'NanumSquareNeo-bRg'; 
+  word-break: break-all;
+  overflow-wrap: break-word;
+  background-color:#f1f1f1;
+}
+
+.hf{
+  text-indent: -9999px;
+  height: 30px;
+  background-color: black;
+}
