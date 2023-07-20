@@ -41,6 +41,10 @@
 </head>
 
 <body>
+    <script>
+        AOS.init();
+    </script>
+
     <section class="sec1_sec2 event">
         <section class="sec1" id="top">
             <h1>PORTFOLIO</h1>
@@ -66,13 +70,13 @@
 
         <section class="sec2 event">
             <div class="sec2-lf">
-                <h1>YERIM'S</h1>
-                <div class="allcat">
+                <h1 alt="메인사진" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in">YERIM'S</h1>
+                <div class="allcat" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in">
                     <img src="./images/allcat.svg" alt="검은고양">
                     <h1 class="bold">WEB DESIGN</h1>
                 </div>
-                <h1>PORTFOLIO</h1>
-                <h1 class="bold">2023<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in">PORTFOLIO</h1>
+                <h1 class="bold" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in">2023<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
                         fill="none">
                         <path
                             d="M20 0C20 0 21.1035 10.2999 25.4018 14.5982C29.7001 18.8965 40 20 40 20C40 20 29.7001 21.1035 25.4018 25.4018C21.1035 29.7001 20 40 20 40C20 40 18.8965 29.7001 14.5982 25.4018C10.2999 21.1035 0 20 0 20C0 20 10.2999 18.8965 14.5982 14.5982C18.8965 10.2999 20 0 20 0Z"
@@ -80,8 +84,8 @@
                     </svg></h1>
             </div>
             <div class="sec2-rt">
-                <div class="box box1 active"></div>
-                <div class="box box2 active"></div>
+                <div class="box box1 active" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in"></div>
+                <div class="box box2 active" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in"></div>
             </div>
         </section>
     </section>
@@ -107,7 +111,8 @@
                 <img src="./images/keyboard2.gif" alt="키보드고양" class="musiccat" id="catImage">
 
                 <div class="sec3-btmd">
-                    <img id="img01" src="./images/city.jpg" alt="메인사진">
+                    <img id="img01" src="./images/city.jpg" alt="메인사진" data-aos="fade-down" data-aos-duration="1000"
+                    data-aos-easing="ease-in">
                     <div class="sec-3-box">
                         <div class="box box3">
                             <div class="box box4">
@@ -342,6 +347,9 @@
         </svg>
     </section>
     <div class="box box10"></div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
 </body>
 
 </html>
