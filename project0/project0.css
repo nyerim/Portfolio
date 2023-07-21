@@ -11,6 +11,11 @@ body {
   word-break: break-all;
   overflow-wrap: break-word;
   background-color:#f1f1f1;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /* 공통 */
@@ -26,6 +31,29 @@ section{
   margin: 35px auto;
 }
 
+svg{
+  width: 30px;
+  margin-right: 5px;
+}
+
+span{
+  background-color: rgba(3, 199, 90, 0.3);
+}
+
+.line{
+  width: 75%;
+}
+
+main .title{
+  display: flex;
+  justify-content: center;
+  font-family: 'NanumSquareNeo-dEb';
+}
+main .title h1{
+  font-size: 40px;
+  margin-right: 70px;
+}
+
 /* header */
 header{
   width: 96%;
@@ -36,12 +64,10 @@ header{
   background-color: #fff;
   margin: 35px auto;
 }
-
 header .home{
   width: 330px;
   object-fit: cover;
 }
-
 header .header{
   height: 550px;
   display: flex;
@@ -49,21 +75,21 @@ header .header{
   justify-content: space-evenly;
   align-content: space-evenly;
 }
-
 header h1{
   font-family: 'NanumSquareNeo-dEb';
   font-size: 60px;
 }
-
 header h2{
   font-family: 'NanumSquareNeo-cBd';
   font-size: 40px;
 }
-
 header h3, h4{
   font-size: 28px;
 }
-
+header .block-3{
+  display: flex;
+  gap: 20px;
+}
 header p{
   font-size: 23px;
   display: block;
@@ -71,8 +97,184 @@ header p{
   border-radius: 30px;
   padding: 10px;
   color: #fff;
+  width: 140px;
+  text-align: center;
 }
 
-header .block-3{
+/* main */
+
+/* overview + uxvision */
+main .overux{
+  height: 983px;
   display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+main .over{
+  margin-top: 50px;
+  height: 50%;
+}
+
+main .over-1{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  transform: translate(-4%,90%);
+}
+main .over-1 h2{
+  display: flex;
+  align-items: start;
+  font-family: 'NanumSquareNeo-cBd';
+  font-size: 30px;
+  transform: translateX(-150px);
+}
+main .over-1 li{
+  margin-bottom: 20px;
+  transform: translate(-106%, 0);
+}
+
+main .over-2{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  transform: translate(0,150%);
+}
+main .over-2 h2{
+display: flex;
+align-items: center;
+font-family: 'NanumSquareNeo-cBd';
+font-size: 30px;
+}
+main .over-2 ul{
+  width: 600px;
+  display: flex;
+}
+
+main .ux{
+  width: 100%;
+  text-align: left;
+  margin: auto;
+ }
+main .ux p{
+  transform: translate(25%, 60%);
+  line-height: 2;
+}
+main .ux p strong{
+  font-size: 30px;
+}
+
+/* rival */
+.rival{
+  height: 1022px;
+  padding-top: 50px;
+}
+.rival .grid{
+  display: block;
+  margin: 50px auto;
+}
+.rival p{
+  font-family: 'NanumSquareNeo-cBd';
+  margin: 50px auto;
+  text-align: center;
+  width: 684px;
+  height: 60px;
+  line-height: 3;
+  border-radius: 50px;
+  background-color: rgba(101, 255, 171, 0.3);
+  box-shadow: 5px 5px 5px -1px rgba(166,166,166,0.89);
+}
+
+/* asis */
+.asis{
+  padding-top: 50px;
+  height: 707px;
+}
+.asis .title{
+  margin: auto;
+}
+.asis .asis-tobe{
+  display: block;
+  margin: 100px auto;
+}
+
+/* design */
+.design{
+  height: 1697px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.design h2{
+  font-size: 38px;
+  font-family: 'NanumSquareNeo-cBd';
+  margin-left: -50px;
+}
+
+.design-1{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px auto;
+}
+
+.design .design-1-lf{
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 600px;
+}
+.design .design-1-lf p{
+  line-height: 2;
+}
+.design .design-1-lf img{
+  width: 350px;
+  margin: 20px auto;
+}
+
+.design .design-1-rt{
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 600px;
+}
+.design .design-1-rt p{
+  line-height: 2;
+}
+.design .design-1-rt img{
+  width: 250px;
+  margin: 20px auto;
+}
+
+
+.design-2{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 80px auto;
+  padding-top: 50px;
+  border-top: 1px solid #b9b9b9;
+}
+.design .design-2-lf{
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 600px;
+}
+.design .design-2-rt{
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 650px;
+}
+
+.design .design-2-lf .color{
+  margin-top: 50px;
+  width: 300px;
+}
+.design .design-2-rt .font{
+  margin-top: 50px;
+  width: 300px;
 }
