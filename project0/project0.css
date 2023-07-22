@@ -33,7 +33,7 @@ section {
 }
 
 svg {
-  width: 30px;
+  width: 40px;
   margin-right: 5px;
 }
 
@@ -54,6 +54,10 @@ main .title {
 main .title h1 {
   font-size: 40px;
   margin-right: 70px;
+}
+
+main h2{
+  display: flex;
 }
 
 /* header */
@@ -283,30 +287,29 @@ main .ux p strong {
 }
 
 .design .design-2-lf {
-  width: 27%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 600px;
+  transform: translate(-100px,0);
 }
-
-.design .design-2-rt {
-  width: 27%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 650px;
-}
-
 .design .design-2-lf .color {
   margin-top: 50px;
   width: 300px;
 }
 
+.design .design-2-rt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 600px;
+  transform: translate(50px,30px);
+}
 .design .design-2-rt .font {
   margin-top: 50px;
-  width: 300px;
+  width: 400px;
 }
+
 
 /* prototype */
 .prototype {
@@ -323,25 +326,106 @@ main .ux p strong {
   color: #03C75A;
 }
 
+.prototype p {
+  line-height: 2;
+}
+
+.prototype .pro-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .prototype .pro1,
 .pro2,
 .pro3,
-.pro4 {
+.pro4,
+.pro5 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  height: 1217px;
 }
+
+.pro1-rt,
+.pro2-lf,
+.pro3-rt,
+.pro4-lf{
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  gap: 100px;
+}
+
+.pro5{
+  width: 1433.48px;
+  margin: auto;
+}
+
 
 /* evalution */
 .eval {
   padding-top: 50px;
-  height: 826px;
+  height: 876px;
+}
+
+.eval h2{
+  font-size: 38px;
+  font-family: 'NanumSquareNeo-cBd';
 }
 
 .eval .eval-all {
-  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  gap: 65px;
+  transform: translateY(70px);
+}
+
+.eval-1,
+.eval-2,
+.eval-3{
+  display: flex;
+  gap: 350px;
+}
+.eval-1 ul,
+.eval-2 ul,
+.eval-3 ul{
+  line-height: 3;
+}
+
+.eval-2{
+  transform: translate(35px,0);
+}
+.eval-2 ul{
+  transform: translate(-35px,0);
+}
+
+
+/* revi */
+.revi{
+  height: 460px;
+  line-height: 2.5;
+}
+.revi p{
+  transform: translate(300px,50px);
+}
+
+
+/* footer */
+footer{
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:30px auto;
+}
+
+footer .footer-lf{
+  display: flex;
+  align-items: center;
+}
+footer img{
+  width: 110px;
 }
