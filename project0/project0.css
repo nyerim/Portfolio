@@ -7,55 +7,57 @@ body {
   /* font-family: 'NanumSquareNeo-eHv'; */
   /* font-family: 'NanumSquareNeo-dEb'; 아래로 갈수록 얇아짐 */
   /* font-family: 'NanumSquareNeo-cBd'; */
-  font-family: 'NanumSquareNeo-bRg'; 
+  font-family: 'NanumSquareNeo-bRg';
   word-break: break-all;
   overflow-wrap: break-word;
-  background-color:#f1f1f1;
+  background-color: #f1f1f1;
   font-size: 20px;
   box-sizing: border-box;
 }
+
 body::-webkit-scrollbar {
   display: none;
 }
 
 /* 공통 */
-.hf{
+.hf {
   text-indent: -9999px;
   height: 30px;
   background-color: black;
 }
 
-section{
+section {
   width: 96%;
   background-color: #fff;
   margin: 35px auto;
 }
 
-svg{
+svg {
   width: 30px;
   margin-right: 5px;
 }
 
-span{
+span {
   background-color: rgba(3, 199, 90, 0.3);
 }
 
-.line{
+.line {
   width: 75%;
 }
 
-main .title{
+main .title {
   display: flex;
   justify-content: center;
   font-family: 'NanumSquareNeo-dEb';
 }
-main .title h1{
+
+main .title h1 {
   font-size: 40px;
   margin-right: 70px;
 }
 
 /* header */
-header{
+header {
   width: 96%;
   height: 90vh;
   display: flex;
@@ -64,33 +66,41 @@ header{
   background-color: #fff;
   margin: 35px auto;
 }
-header .home{
+
+header .home {
   width: 330px;
   object-fit: cover;
 }
-header .header{
+
+header .header {
   height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-content: space-evenly;
 }
-header h1{
+
+header h1 {
   font-family: 'NanumSquareNeo-dEb';
   font-size: 60px;
 }
-header h2{
+
+header h2 {
   font-family: 'NanumSquareNeo-cBd';
   font-size: 40px;
 }
-header h3, h4{
+
+header h3,
+h4 {
   font-size: 28px;
 }
-header .block-3{
+
+header .block-3 {
   display: flex;
   gap: 20px;
 }
-header p{
+
+header p {
   font-size: 23px;
   display: block;
   background-color: #000;
@@ -104,75 +114,84 @@ header p{
 /* main */
 
 /* overview + uxvision */
-main .overux{
+main .overux {
   height: 983px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
 }
-main .over{
+
+main .over {
   margin-top: 50px;
   height: 50%;
 }
 
-main .over-1{
+main .over-1 {
   display: flex;
   align-items: start;
   justify-content: space-evenly;
-  transform: translate(-4%,90%);
+  transform: translate(-4%, 90%);
 }
-main .over-1 h2{
+
+main .over-1 h2 {
   display: flex;
   align-items: start;
   font-family: 'NanumSquareNeo-cBd';
   font-size: 30px;
   transform: translateX(-150px);
 }
-main .over-1 li{
+
+main .over-1 li {
   margin-bottom: 20px;
   transform: translate(-106%, 0);
 }
 
-main .over-2{
+main .over-2 {
   display: flex;
   align-items: start;
   justify-content: space-evenly;
-  transform: translate(0,150%);
+  transform: translate(0, 150%);
 }
-main .over-2 h2{
-display: flex;
-align-items: center;
-font-family: 'NanumSquareNeo-cBd';
-font-size: 30px;
+
+main .over-2 h2 {
+  display: flex;
+  align-items: center;
+  font-family: 'NanumSquareNeo-cBd';
+  font-size: 30px;
 }
-main .over-2 ul{
+
+main .over-2 ul {
   width: 600px;
   display: flex;
 }
 
-main .ux{
+main .ux {
   width: 100%;
   text-align: left;
   margin: auto;
- }
-main .ux p{
+}
+
+main .ux p {
   transform: translate(25%, 60%);
   line-height: 2;
 }
-main .ux p strong{
+
+main .ux p strong {
   font-size: 30px;
 }
 
 /* rival */
-.rival{
+.rival {
   height: 1022px;
   padding-top: 50px;
 }
-.rival .grid{
+
+.rival .grid {
   display: block;
   margin: 50px auto;
 }
-.rival p{
+
+.rival p {
   font-family: 'NanumSquareNeo-cBd';
   margin: 50px auto;
   text-align: center;
@@ -181,73 +200,80 @@ main .ux p strong{
   line-height: 3;
   border-radius: 50px;
   background-color: rgba(101, 255, 171, 0.3);
-  box-shadow: 5px 5px 5px -1px rgba(166,166,166,0.89);
+  box-shadow: 5px 5px 5px -1px rgba(166, 166, 166, 0.89);
 }
 
 /* asis */
-.asis{
+.asis {
   padding-top: 50px;
   height: 707px;
 }
-.asis .title{
+
+.asis .title {
   margin: auto;
 }
-.asis .asis-tobe{
+
+.asis .asis-tobe {
   display: block;
   margin: 100px auto;
 }
 
 /* design */
-.design{
+.design {
   height: 1697px;
   display: flex;
   flex-direction: column;
   padding-top: 50px;
 }
-.design h2{
+
+.design h2 {
   font-size: 38px;
   font-family: 'NanumSquareNeo-cBd';
   margin-left: -50px;
 }
 
-.design-1{
+.design-1 {
   display: flex;
   justify-content: space-evenly;
   margin: 70px auto;
 }
 
-.design .design-1-lf{
+.design .design-1-lf {
   width: 27%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 600px;
 }
-.design .design-1-lf p{
+
+.design .design-1-lf p {
   line-height: 2;
 }
-.design .design-1-lf img{
+
+.design .design-1-lf img {
   width: 350px;
   margin: 20px auto;
 }
 
-.design .design-1-rt{
+.design .design-1-rt {
   width: 27%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 600px;
 }
-.design .design-1-rt p{
+
+.design .design-1-rt p {
   line-height: 2;
 }
-.design .design-1-rt img{
+
+.design .design-1-rt img {
   width: 250px;
   margin: 20px auto;
 }
 
 
-.design-2{
+.design-2 {
   display: flex;
   justify-content: space-evenly;
   width: 90%;
@@ -255,14 +281,16 @@ main .ux p strong{
   padding-top: 50px;
   border-top: 1px solid #b9b9b9;
 }
-.design .design-2-lf{
+
+.design .design-2-lf {
   width: 27%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 600px;
 }
-.design .design-2-rt{
+
+.design .design-2-rt {
   width: 27%;
   display: flex;
   flex-direction: column;
@@ -270,11 +298,50 @@ main .ux p strong{
   height: 650px;
 }
 
-.design .design-2-lf .color{
+.design .design-2-lf .color {
   margin-top: 50px;
   width: 300px;
 }
-.design .design-2-rt .font{
+
+.design .design-2-rt .font {
   margin-top: 50px;
   width: 300px;
+}
+
+/* prototype */
+.prototype {
+  padding-top: 50px;
+}
+
+.prototype h2 {
+  font-family: 'NanumSquareNeo-dEb';
+  font-size: 45px;
+}
+
+.prototype h4 {
+  font-family: 'NanumSquareNeo-dEb';
+  color: #03C75A;
+}
+
+.prototype .pro1,
+.pro2,
+.pro3,
+.pro4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* evalution */
+.eval {
+  padding-top: 50px;
+  height: 826px;
+}
+
+.eval .eval-all {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
