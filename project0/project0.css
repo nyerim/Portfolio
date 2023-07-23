@@ -56,7 +56,7 @@ main .title h1 {
   margin-right: 70px;
 }
 
-main h2{
+main h2 {
   display: flex;
 }
 
@@ -291,8 +291,9 @@ main .ux p strong {
   flex-direction: column;
   justify-content: space-evenly;
   height: 600px;
-  transform: translate(-100px,0);
+  transform: translate(-100px, 0);
 }
+
 .design .design-2-lf .color {
   margin-top: 50px;
   width: 300px;
@@ -303,8 +304,9 @@ main .ux p strong {
   flex-direction: column;
   justify-content: space-evenly;
   height: 600px;
-  transform: translate(50px,30px);
+  transform: translate(50px, 30px);
 }
+
 .design .design-2-rt .font {
   margin-top: 50px;
   width: 400px;
@@ -330,7 +332,7 @@ main .ux p strong {
   line-height: 2;
 }
 
-.prototype .pro-text{
+.prototype .pro-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -350,14 +352,14 @@ main .ux p strong {
 .pro1-rt,
 .pro2-lf,
 .pro3-rt,
-.pro4-lf{
+.pro4-lf {
   display: flex;
   flex-direction: column;
   align-content: space-evenly;
   gap: 100px;
 }
 
-.pro5{
+.pro5 {
   width: 1433.48px;
   margin: auto;
 }
@@ -369,7 +371,7 @@ main .ux p strong {
   height: 876px;
 }
 
-.eval h2{
+.eval h2 {
   font-size: 38px;
   font-family: 'NanumSquareNeo-cBd';
 }
@@ -385,47 +387,81 @@ main .ux p strong {
 
 .eval-1,
 .eval-2,
-.eval-3{
+.eval-3 {
   display: flex;
   gap: 350px;
 }
+
 .eval-1 ul,
 .eval-2 ul,
-.eval-3 ul{
+.eval-3 ul {
   line-height: 3;
 }
 
-.eval-2{
-  transform: translate(35px,0);
+.eval-2 {
+  transform: translate(35px, 0);
 }
-.eval-2 ul{
-  transform: translate(-35px,0);
+
+.eval-2 ul {
+  transform: translate(-35px, 0);
 }
 
 
 /* revi */
-.revi{
+.revi {
   height: 460px;
   line-height: 2.5;
 }
-.revi p{
-  transform: translate(300px,50px);
+
+.revi p {
+  transform: translate(300px, 50px);
 }
 
 
 /* footer */
-footer{
+footer {
   width: 96%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:30px auto;
+  margin: 30px auto;
 }
 
-footer .footer-lf{
+footer .footer-lf {
   display: flex;
   align-items: center;
 }
-footer img{
+
+footer img {
   width: 110px;
+}
+
+footer h1 {
+  font-family: 'NanumSquareNeo-dEb';
+  font-size: 50px;
+  color: #fff;
+  -webkit-text-stroke: 1px solid #000;
+  margin-left: 20px;
+}
+
+footer h2 {
+  width: 250px;
+  height: 70px;
+  font-size: 30px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 2.5;
+  border-radius: 50px 0 0 50px;
+}
+
+footer h2:hover .arrow {
+  transform: translateX(10px);
+}
+
+footer h2 img {
+  transition: 0.4s;
+  width: 100px;
+  margin-top: 25px;
+  margin-left: 10px;
 }
