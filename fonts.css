@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* neuehaas  */
 @font-face {
   font-family: 'NeueHaasDisplay-Bold';
   src: url(./common/fonts/NeueHaasDisplay-Bold.woff2) format('woff2');
@@ -10,6 +11,7 @@
   src: url(./common/fonts/NeueHaasDisplay-Light.woff2) format('woff2');
 }
 
+/* 나눔스퀘어 */
 @font-face {
   font-family: 'NanumSquareNeo-eHv';
   src: url(./common/fonts/NanumSquareNeo-eHv.woff2) format('woff2');
@@ -28,4 +30,10 @@
 @font-face {
   font-family: 'NanumSquareNeo-bRg';
   src: url(./common/fonts/NanumSquareNeo-bRg.woff2) format('woff2');
+}
+
+/* 애플 */
+@font-face {
+  font-family: 'AppleSDGothicNeoB';
+  src: url(./common/fonts/AppleSDGothicNeoB.woff2) format('woff2');
 }
