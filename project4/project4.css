@@ -69,11 +69,14 @@ header .header a {
 /* makes */
 .makes {
   background-color: #101820;
+  transform: translate(0px,-80px);
 }
 .makes h1 {
   font-size: 65px;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
+  margin-bottom: 100px;
+  margin-left: 160px;
 }
 .makes .wave {
   filter: invert(100);
@@ -117,7 +120,14 @@ header .header a {
 
 .makes .best {
   border-radius: 50px;
+  width: 500px;
+  height: 300px;
   border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 .makes .best img {
   width: 350px;
@@ -127,10 +137,17 @@ header .header a {
 
 .makes .more {
   border-radius: 50px;
+  width: 500px;
+  height: 300px;
   border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 .makes .more img {
   width: 350px;
-  height: 150px;
+  height: 100px;
   object-fit: cover;
 }
