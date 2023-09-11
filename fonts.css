@@ -37,3 +37,9 @@
   font-family: 'AppleSDGothicNeoB';
   src: url(./common/fonts/AppleSDGothicNeoB.woff2) format('woff2');
 }
+
+@font-face {
+  font-family: 'AppleSDGothicNeoSB';
+  src: url(./common/fonts/AppleSDGothicNeoSB.woff2) format('woff2');
+}
+
