@@ -1,7 +1,9 @@
 @charset "utf-8";
+
 body {
-  background-color: #f2f9ff;
+  background-color: #101820;
   color: #fff;
+  font-family: 'AppleSDGothicNeoSB';
 }
 img {
   width: 400px;
@@ -69,7 +71,7 @@ header .header a {
 /* makes */
 .makes {
   background-color: #101820;
-  transform: translate(0px,-80px);
+  transform: translate(0px, -50px);
 }
 .makes h1 {
   font-size: 65px;
@@ -150,4 +152,20 @@ header .header a {
   width: 350px;
   height: 100px;
   object-fit: cover;
+}
+
+.artists{
+  border-top: 2px solid #fff;
+  border-
+  margin-top: 200px;
+}
+
+.box{
+  border: 1px solid #fff;
+  padding: 40px;
+}
+
+.artist1, .artist2, .artist3, .artist4 {
+  display: flex;
+  place-content: center;
 }

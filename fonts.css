@@ -35,7 +35,7 @@
 /* 애플 */
 @font-face {
   font-family: 'AppleSDGothicNeoH';
-  src: url(./AppleSDGothicNeoH.woff2) format('woff2');
+  src: url(./common/fonts/AppleSDGothicNeoH.woff2) format('woff2');
 }
 
 @font-face {
