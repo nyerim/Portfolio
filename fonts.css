@@ -34,6 +34,11 @@
 
 /* 애플 */
 @font-face {
+  font-family: 'AppleSDGothicNeoH';
+  src: url(./AppleSDGothicNeoH.woff2) format('woff2');
+}
+
+@font-face {
   font-family: 'AppleSDGothicNeoB';
   src: url(./common/fonts/AppleSDGothicNeoB.woff2) format('woff2');
 }
@@ -42,4 +47,10 @@
   font-family: 'AppleSDGothicNeoSB';
   src: url(./common/fonts/AppleSDGothicNeoSB.woff2) format('woff2');
 }
+
+@font-face {
+  font-family: 'AppleSDGothicNeoR';
+  src: url(./common/fonts/AppleSDGothicNeoR.woff2) format('woff2');
+}
+
 
